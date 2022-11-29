@@ -1,2 +1,2 @@
-# Page Reset
-This page has been reset
+# Sentence Combining
+Limited Edition
