@@ -110,9 +110,12 @@
 		function clr() {
 			document.getElementById("result").value = ""
 		}
+		function error() {
+			alert("Internal Error (Code: 500)")
+		}
 	</script>
 	<p>version<b> 2.0.3</b>; Another version of <a href="https://www.geeksforgeeks.org/html-calculator/">Geeksforgeeks html caculator</a></p>
-	<button class="none">Settings</button>
+	<button onclick="error()" class="none">Settings</button>
 	</body>
 
 </html>
