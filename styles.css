@@ -1,3 +1,6 @@
+.infoBar {
+ background-color: #333; 
+}
 h1,h2,h3,h4,h5,p,b,li {
   color: #ffffff;
 }
@@ -10,14 +13,14 @@ body {
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted #ffffff; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: #fff;
   color: #fff;
   text-align: center;
   padding: 5px 0;
